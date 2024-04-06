@@ -118,9 +118,13 @@
         height: 40px;
         width: 60%;
         border-radius: 10px;
-    
     }
+
+    #cartao, #pix{height: 30px;}
+
     #logo{height: 100px}
+
+
     #btHome, #btCatalogo{
         border: solid 0px;
         background: none;
@@ -169,49 +173,55 @@
 @media only screen and (min-width: 1024px){
     body{background: #000000;}
 
-.conteiner-cabecalho{
-    display: flex;
-    height: 150px;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 20px;
-}
-.logos-cabecalho{
-    display: flex;
-    gap: 10px;
-}
-header{
-    border: solid 0px #FF3131;
-    background: #000;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 40px;
-    width: 60%;
-    border-radius: 10px;
-}
+    .conteiner-cabecalho{
 
-#logo{height: 100px;}
+        display: flex;
+        height: 150px;
+        width: 95%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 20px;
+    }
+    .logos-cabecalho{
+        display: flex;
+        gap: 10px;
+    }
+    header{
+        border: solid 0px #FF3131;
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 40px;
+        width: 30%;
+        border-radius: 10px;
+    }
+    #logo{height: 100px;}
 
-#btHome, #btCatalogo{
-    border: solid 0px;
-    background: none;
-    color: #fff;
-    font-size: 25px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-#btHome:hover, #btCatalogo:hover{
-    filter: brightness(70%);
-    color: #FF3131;
-    cursor: pointer;
-}
+    #cartao,#pix{height: 30px;}
+    
+    #btHome, #btCatalogo{
+        border: solid 0px;
+        background: none;
+        color: #fff;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #btHome:hover, #btCatalogo:hover{
+        filter: brightness(70%);
+        color: #FF3131;
+        cursor: pointer;
+    }
+    
+    .redes-socias{
+        display: flex;
+        gap: 10px;
+    }
+    #whats,#instagram{height: 30px;}
+    #whats:hover,#instagram:hover{filter: brightness(70%);}
+    
 
-.redes-socias{
-    display: flex;
-    gap: 10px;
-}
-#whats:hover,#instagram:hover{filter: brightness(70%);}
 
 
 
@@ -223,6 +233,7 @@ header{
     text-align: center;
     margin-top: 60px;
 }
+
 
 #img1{height: 150px;margin:5px;}
 .primeira-fila,.segunda-fila,.terceira-fila,.quarta-fila,.quinta-fila{
