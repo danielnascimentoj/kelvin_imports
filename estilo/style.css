@@ -107,7 +107,7 @@
         margin-top: 10px;
         justify-content: center;
     }
-    #xurgaris{color: #ffffff;}
+    #xurgaris{color: #ffffff;font-size: 15px;}
 
 }
     
@@ -213,7 +213,7 @@ header{
     margin-top: 10px;
     justify-content: center;
 }
-#xurgaris{color: #ffffff;}
+#xurgaris{color: #ffffff;font-size: 15px;}
 }
 
 /* Notebook */
