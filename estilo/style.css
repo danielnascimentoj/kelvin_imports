@@ -30,7 +30,7 @@
     }
     #btHome, #btCatalogo{
         border: solid 0px;
-        background: #000;
+        background: none;
         color: #fff;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -39,7 +39,6 @@
         filter: brightness(70%);
         color: #FF3131;
         cursor: pointer;
-        background: #FF3131;
     }
     
     #logo{height: 95px;}
