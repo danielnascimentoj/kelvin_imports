@@ -13,17 +13,40 @@
         flex-direction: column;
         gap: 10px;
     }
-    #cartao, #pix{height: 25px;}
+    
     header{
         border: solid 0px #FF3131;
-        background: #000;
+        background: none;
         display: flex;
         align-items: center;
         justify-content: space-around;
         height: 40px;
         width: 99%;
         border-radius: 10px;
-    
+    }
+    .div-esquerda{
+        display: flex;
+        background: none;
+        align-items: center;
+        width: 35%;
+        height: 100%;
+    }
+
+    .conteudo-meio{
+        display: flex;
+        background: none;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo{height: 95px;}
+
+    .div-direita{
+        display: flex;
+        background: none;
+        align-items: center;
+        justify-content: end;
+        width: 40%;
+        height: 100%;
     }
     #btHome, #btCatalogo{
         border: solid 0px;
@@ -38,6 +61,7 @@
         cursor: pointer;
     }
     #logo{height: 95px;}
+    
     .redes-socias{
         display: none;
         gap: 10px;

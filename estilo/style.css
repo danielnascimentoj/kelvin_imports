@@ -14,24 +14,46 @@
         flex-direction: column;
         gap: 10px;
     }
-
-    #cartao, #pix{height: 25px;}
     
     header{
         border: solid 0px #FF3131;
-        background: #000;
+        background: none;
         display: flex;
         align-items: center;
         justify-content: space-around;
         height: 40px;
         width: 99%;
         border-radius: 10px;
-    
     }
+    .div-esquerda{
+        display: flex;
+        background: none;
+        align-items: center;
+        width: 35%;
+        height: 100%;
+    }
+
+    .conteudo-meio{
+        display: flex;
+        background: none;
+        align-items: center;
+        justify-content: center;
+    }
+    #logo{height: 95px;}
+
+    .div-direita{
+        display: flex;
+        background: none;
+        align-items: center;
+        justify-content: end;
+        width: 40%;
+        height: 100%;
+    }
+
     #btHome, #btCatalogo{
         border: solid 0px;
         background: none;
-        color: #fff;
+        color: #ffffff;
         font-size: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
@@ -40,21 +62,15 @@
         color: #FF3131;
         cursor: pointer;
     }
-    
-    #logo{height: 95px;}
 
-    .redes-socias{
-        display: none;
-        gap: 10px;
-        flex-direction: column;
-    }
-    #whats,#instagram{height: 25px;}
-    #whats:hover,#instagram:hover{filter: brightness(70%);}
-    
-    #banner-2{height: 350px;margin-top: -80px;}
+    #banner-2{
+        display: flex;
+        margin: auto;
+        height: 300px;
+        margin-top: -80px;
+        align-items: center;
+        justify-content: center;
 
-    #banner{
-       display: none;
     }
     
     .barra-imagem{
@@ -109,6 +125,19 @@
     }
     #xurgaris{color: #ffffff;font-size: 10px;}
 
+
+
+
+    /* Itens não necessário para esse tamanho de tela */
+    .redes-socias{
+        display: none;
+        gap: 10px;
+        flex-direction: column;
+    }
+    #whats,#instagram{height: 25px;}
+    #whats:hover,#instagram:hover{filter: brightness(70%);}
+    #banner{display: none;}
+    #cartao, #pix{height: 25px;}
 }
     
 /* Tablets */
@@ -138,6 +167,8 @@ header{
     border-radius: 10px;
 
 }
+#logo{height: 100px;}
+
 #btHome, #btCatalogo{
     border: solid 0px;
     background: none;
