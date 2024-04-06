@@ -120,6 +120,7 @@
         border-radius: 10px;
     
     }
+    #logo{height: 100px}
     #btHome, #btCatalogo{
         border: solid 0px;
         background: none;
@@ -189,8 +190,10 @@ header{
     height: 40px;
     width: 60%;
     border-radius: 10px;
-
 }
+
+#logo{height: 100px;}
+
 #btHome, #btCatalogo{
     border: solid 0px;
     background: none;
