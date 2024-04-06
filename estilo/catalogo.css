@@ -235,7 +235,7 @@
 }
 
 
-#img1{height: 150px;margin:5px;}
+#img1{height: 145px;margin:5px;}
 .primeira-fila,.segunda-fila,.terceira-fila,.quarta-fila,.quinta-fila{
    display: flex;
    align-items: center;
