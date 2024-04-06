@@ -1,0 +1,327 @@
+/* Celulares */
+@media only screen and (max-width: 766px){
+    body{background: #000000;}
+
+    .conteiner-cabecalho{
+        display: flex;
+        height: 150px;
+        width: 99%;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .logos-cabecalho{
+        display: none;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #cartao, #pix{height: 25px;}
+    
+    header{
+        border: solid 0px #FF3131;
+        background: #000;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 40px;
+        width: 99%;
+        border-radius: 10px;
+    
+    }
+    #btHome, #btCatalogo{
+        border: solid 0px;
+        background: none;
+        color: #fff;
+        font-size: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #btHome:hover, #btCatalogo:hover{
+        filter: brightness(70%);
+        color: #FF3131;
+        cursor: pointer;
+    }
+    
+    #logo{height: 95px;}
+
+    .redes-socias{
+        display: none;
+        gap: 10px;
+        flex-direction: column;
+    }
+    #whats,#instagram{height: 25px;}
+    #whats:hover,#instagram:hover{filter: brightness(70%);}
+    
+    #banner-2{height: 345px;}
+
+    #banner{
+       display: none;
+    }
+    
+    .barra-imagem{
+        display: flex;
+        width: 100%;
+        height: 80px;
+        margin-top: -5px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background: #101010;
+    }
+    #frase-moto{
+        color: #ffffff;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    .conteiner-corpo{
+        background: #101010;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 18px;
+        height: auto;
+        width: auto;
+    }
+    .conteudo{
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    #titulo-nossosprodutos{color: #FF3131;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+    #text-nossosprodutos{
+        color: #fff;
+        text-align: center;
+        font-size: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    
+    #f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    
+    .fundo-pagina{
+        background: #212121;
+        display: flex;
+        margin-top: 10px;
+        justify-content: center;
+    }
+    #xurgaris{color: #FF3131;}
+
+}
+    
+/* Tablets */
+@media only screen and (min-width: 767px) and (max-width: 1023px){
+body{background: #000000;}
+
+.conteiner-cabecalho{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.logos-cabecalho{
+    display: flex;
+    gap: 10px;
+}
+header{
+    border: solid 0px #FF3131;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 60%;
+    border-radius: 10px;
+
+}
+#btHome, #btCatalogo{
+    border: solid 0px;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btHome:hover, #btCatalogo:hover{
+    filter: brightness(70%);
+    color: #FF3131;
+    cursor: pointer;
+}
+
+.redes-socias{
+    display: flex;
+    gap: 10px;
+}
+#whats:hover,#instagram:hover{filter: brightness(70%);}
+
+#banner{
+    margin-top: -30px;
+    height: 300px;
+}
+#banner-2{display: none;}
+
+.barra-imagem{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin-top: -5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #101010;
+}
+#frase-moto{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner-corpo{
+    background: #101010;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+    height: auto;
+    width: auto;
+}
+.conteudo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#titulo-nossosprodutos{color: #FF3131;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#text-nossosprodutos{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.fundo-pagina{
+    background: #212121;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+#xurgaris{color: #FF3131;}
+}
+
+/* Notebook */
+@media only screen and (min-width: 1024px){
+body{background: #000000;}
+
+.conteiner-cabecalho{
+    display: flex;
+    height: 150px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.logos-cabecalho{
+    display: flex;
+    gap: 10px;
+}
+header{
+    border: solid 0px #FF3131;
+    background: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 40px;
+    width: 30%;
+    border-radius: 10px;
+
+}
+#btHome, #btCatalogo{
+    border: solid 0px;
+    background: none;
+    color: #fff;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#btHome:hover, #btCatalogo:hover{
+    filter: brightness(70%);
+    color: #FF3131;
+    cursor: pointer;
+}
+
+.redes-socias{
+    display: flex;
+    gap: 10px;
+}
+#whats:hover,#instagram:hover{filter: brightness(70%);}
+
+#titulo-principal{
+    color: #fff;
+}
+
+
+#banner{
+    margin-top: -30px;
+    height: 595px;
+}
+#banner-2{display: none;}
+
+.barra-imagem{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    margin-top: -5px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #101010;
+}
+#frase-moto{
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.conteiner-corpo{
+    background: #101010;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 18px;
+    height: auto;
+    width: auto;
+}
+.conteudo{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#titulo-nossosprodutos{color: #FF3131;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+#text-nossosprodutos{
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.fundo-pagina{
+    background: #212121;
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+}
+#xurgaris{color: #FF3131;}
+}
