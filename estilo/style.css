@@ -127,7 +127,7 @@
 
 
     /* Itens não necessário para esse tamanho de tela */
-    #whats,#instagram{height: 25px;}
+    #whats,#instagram{display: none}
     #whats:hover,#instagram:hover{filter: brightness(70%);}
     #banner{display: none;}
     #cartao, #pix{height: 25px;}
