@@ -197,7 +197,7 @@ header{
     margin-top: 60px;
 }
 
-#img1{height: 150px;}
+#img1{height: 150px;margin:5px;}
 .primeira-fila,.segunda-fila,.terceira-fila,.quarta-fila,.quinta-fila{
    display: flex;
    align-items: center;
@@ -211,8 +211,14 @@ header{
     justify-content: center;
     align-items: center;
     margin-top: 10px;
+    gap: 3px;
 }
-#name-prod,#cor-disp,#codigo-prod,#pagamento{color: #fff;}
+#name-prod,#cor-disp,#codigo-prod,#pagamento{
+    color: #fff; 
+    font-size: 10px;
+
+}
+
 #valor-prod{color: #13e32e;font-size: 15px;}
 
 }
