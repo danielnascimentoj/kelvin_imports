@@ -51,9 +51,22 @@
         display: flex;
         flex-direction: column;
     }
+    #titulo{color: #fff;
+        text-align: center;
+        margin-top: 60px;
+    }
     .primeira-fila{
         display: flex;
+        flex-direction: column;
     }
+    #prod-1,#prod-2,#prod-3,#prod-4,#prod-5,#prod-6{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #name-prod,#cor-disp,#codigo-prod,#pagamento{color: #fff;}
+    #valor-prod{color: #13e32e;}
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px){
