@@ -64,6 +64,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 10px;
     }
     #name-prod,#cor-disp,#codigo-prod,#pagamento{color: #fff;}
     #valor-prod{color: #13e32e;}
