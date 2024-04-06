@@ -102,7 +102,7 @@
     #f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
     
     .fundo-pagina{
-        background: #212121;
+        background: #000000;
         display: flex;
         margin-top: 10px;
         justify-content: center;
@@ -208,7 +208,7 @@ header{
 #f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .fundo-pagina{
-    background: #212121;
+    background: #000000;
     display: flex;
     margin-top: 10px;
     justify-content: center;
@@ -324,7 +324,7 @@ header{
 #f1{font-size: 15px;font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
 .fundo-pagina{
-    background: #212121;
+    background: #000000;
     display: flex;
     margin-top: 10px;
     justify-content: center;
