@@ -51,7 +51,7 @@
     #whats,#instagram{height: 25px;}
     #whats:hover,#instagram:hover{filter: brightness(70%);}
     
-    #banner-2{height: 400px;}
+    #banner-2{height: 350px;}
 
     #banner{
        display: none;
