@@ -1,18 +1,19 @@
-@media only screen and (min-width: 766px){
+@media only screen and (max-width: 766px){
     body{background: #000000;}
 
     .conteiner-cabecalho{
         display: flex;
         height: 150px;
-        width: 100%;
+        width: 99%;
         align-items: center;
         justify-content: space-around;
-        margin-top: 20px;
     }
     .logos-cabecalho{
-        display: flex;
+        display: none;
+        flex-direction: column;
         gap: 10px;
     }
+    #cartao, #pix{height: 25px;}
     header{
         border: solid 0px #FF3131;
         background: #000;
@@ -20,7 +21,7 @@
         align-items: center;
         justify-content: space-around;
         height: 40px;
-        width: 60%;
+        width: 99%;
         border-radius: 10px;
     
     }
@@ -28,7 +29,7 @@
         border: solid 0px;
         background: none;
         color: #fff;
-        font-size: 25px;
+        font-size: 15px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
     #btHome:hover, #btCatalogo:hover{
@@ -36,13 +37,23 @@
         color: #FF3131;
         cursor: pointer;
     }
-    
+    #logo{height: 95px;}
     .redes-socias{
-        display: flex;
+        display: none;
         gap: 10px;
+        flex-direction: column;
     }
+    #whats,#instagram{height: 25px;}
     #whats:hover,#instagram:hover{filter: brightness(70%);}
     
+    
+    .catalogo-corpo{
+        display: flex;
+        flex-direction: column;
+    }
+    .primeira-fila{
+        display: flex;
+    }
 }
 
 @media only screen and (min-width: 767px) and (max-width: 1023px){
