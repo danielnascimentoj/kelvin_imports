@@ -221,9 +221,11 @@ header{
 body{background: #000000;}
 
 .conteiner-cabecalho{
+
     display: flex;
     height: 150px;
-    width: 100%;
+    width: 95%;
+    margin: auto;
     align-items: center;
     justify-content: space-around;
     margin-top: 20px;
@@ -234,20 +236,21 @@ body{background: #000000;}
 }
 header{
     border: solid 0px #FF3131;
-    background: #000;
+   
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 40px;
     width: 30%;
     border-radius: 10px;
-
 }
+#cartao,#pix{height: 30px;}
+
 #btHome, #btCatalogo{
     border: solid 0px;
     background: none;
     color: #fff;
-    font-size: 25px;
+    font-size: 15px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 #btHome:hover, #btCatalogo:hover{
@@ -260,16 +263,20 @@ header{
     display: flex;
     gap: 10px;
 }
+#whats,#instagram{height: 30px;}
 #whats:hover,#instagram:hover{filter: brightness(70%);}
 
 #titulo-principal{
     color: #fff;
 }
 
+#logo{height: 100px;}
+
 
 #banner{
     margin-top: -30px;
-    height: 595px;
+    height: 400px;
+    margin: auto;
 }
 #banner-2{display: none;}
 
